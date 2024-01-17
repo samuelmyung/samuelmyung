@@ -4,7 +4,7 @@ body, html {
 }
 
 .bg {
-  background-image: url("./nature.jpg");
+  background-image: url("nature.jpg");
   height: 100%;
   background-position: center;
   background-repeat: no-repeat;
