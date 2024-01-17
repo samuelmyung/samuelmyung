@@ -1,0 +1,150 @@
+body, html {
+  height: 100%;
+  margin: 0;
+}
+
+.bg {
+  background-image: url("./nature.jpg");
+  height: 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  opacity: 0.55;
+}
+
+.home_nav{
+list-style-type: none;
+margin: 0;
+padding: 0;
+overflow: hidden;
+position: fixed;
+top: 10px;
+width: 100%;
+}
+
+.home_nav li a{
+  display: block;
+  color: rgb(0, 0, 0);
+  text-align: center;
+  padding: 14px 25px;
+  text-decoration: none;
+  font-size: 23px;
+  font-family: Palatino, URW Palladio L, serif;
+}
+
+.home_nav li {
+  float: left;
+}
+
+.pages {
+list-style-type: none;
+margin: 0;
+padding: 0;
+overflow: hidden;
+position: fixed;
+width: 100%;
+background-color: black;
+}
+
+.pages li a{
+  display: block;
+  color: rgb(255, 255, 255);
+  text-align: center;
+  padding: 14px 25px;
+  text-decoration: none;
+  font-size: 23px;
+  font-family: Palatino, URW Palladio L, serif;
+}
+
+.pages li {
+  float: left;
+}
+
+li a:hover {
+  background-color: rgb(183, 204, 226);
+}
+
+.home{
+  position: absolute;
+  top: 35%;
+  left: 49%;
+  transform: translate(-50%, -50%);
+  font-size: 35px;
+  font-family: Palatino, URW Palladio L, serif;
+  text-align: center;
+  color: black;
+}
+
+.facts {
+  line-height: 2.4;
+  margin: 0;
+}
+
+.about a {
+  text-decoration: none;
+  font-style: italic;
+  font-weight: bold;
+}
+
+.about {
+  position: absolute;
+  top: 15%;
+  left: 50%;
+  margin-right: 100px;
+  padding-bottom: 100px;
+  font-family: Palatino, URW Palladio L, serif;
+  line-height: 1.7;
+  font-size: 16px;
+}
+
+img {
+  height: 50%;
+  width: 30%;
+  border-radius: 50%;
+  position: fixed;
+  top: 52%;
+  left: 25%;
+  transform: translate(-50%, -50%);
+}
+
+.contact {
+  position: absolute;
+  top: 12%;
+  left: 49%;
+  transform: translate(-50%, -50%);
+  font-size: 45px;
+  font-family: Palatino, URW Palladio L, serif;
+  text-align: center;
+  color: black;
+}
+
+.contact_list {
+  position: absolute;
+  top: 32%;
+  left: 48%;
+  transform: translate(-50%, -50%);
+  font-family: Palatino, URW Palladio L, serif;
+  text-align: center;
+  color: black;
+  line-height: 2.5;
+  list-style-type: none;
+  font-size: 23px;
+}
+
+.contact_list a {
+  text-decoration: none;
+  color: inherit;
+}
+
+form{
+  position: absolute;
+  top: 69%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-family: Palatino, URW Palladio L, serif;
+  text-align: center;
+  color: black;
+  line-height: 2;
+  font-size: 23px;
+  font-weight: bold;
+}
